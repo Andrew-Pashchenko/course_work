@@ -5,6 +5,8 @@
 #include <conio.h>
 #include <locale.h>
 #include <string.h>
+#include "menu.h"
+#include "dvizheniya.h"
 
 using namespace std;
 
