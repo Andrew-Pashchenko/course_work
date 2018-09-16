@@ -12,6 +12,7 @@
 #include "ricynok_o.h"
 #include "win0.h"
 #include "winx.h"
+#include "nichiya.h"
 
 using namespace std;
 

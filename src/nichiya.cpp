@@ -16,14 +16,14 @@
 
 using namespace std;
 
-int winX()
-{          
+int dead_heat()
+{
 	int c_input;
 	cleardevice();
-	setcolor(12);
-	outtextxy(225,250, "Победил игрок крестиков ");
-	outtextxy(225,270, "Выберите :  ");
-	outtextxy(225,290, "1-вернуться в меню");
+	setcolor(27);
+	outtextxy(225,250, "НИЧЬЯ");
+	outtextxy(225,270, "Выберите: ");
+	outtextxy(225,290, "1-вернуться в меню ");
 	outtextxy(225,310, "2- выйти ");
 	c_input = getch();
 	switch(c_input)
