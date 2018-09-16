@@ -41,6 +41,15 @@ int game()
 			case 119: draw_x(440,220); break;
 			case 101: draw_x(660,220); break;
 		}
+		a1=getpixel(108,548);
+		a2=getpixel(328,548);
+		a3=getpixel(548,548);
+		a4=getpixel(108,328);
+		a5=getpixel(328,328);
+		a6=getpixel(548,328); 
+		a7=getpixel(108,108);
+		a8=getpixel(328,108);
+		a9=getpixel(548,108);
 	}
 	return 0; 
 }
