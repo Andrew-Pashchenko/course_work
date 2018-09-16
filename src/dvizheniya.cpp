@@ -8,6 +8,7 @@
 #include "menu.h"
 #include "dvizheniya.h"
 #include "ricynok_polya.h"
+#include "ricynok_x.h"
 
 using namespace std;
 
