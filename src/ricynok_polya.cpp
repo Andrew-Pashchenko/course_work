@@ -11,6 +11,7 @@
 #include "ricynok_x.h"
 #include "ricynok_o.h"
 #include "win0.h"
+#include "winx.h"
 
 using namespace std;
 

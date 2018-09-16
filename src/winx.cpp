@@ -15,17 +15,17 @@
 
 using namespace std;
 
-int win0()
+int winX()
 {          
-	int b_input;
+	int c_input;
 	cleardevice();
-	setcolor(3);
-	outtextxy(225,250, "Победил игрокноликов ");
-	outtextxy(225,270, "Выберите : ");
-	outtextxy(225,290, "1- вернуться в меню  ");
+	setcolor(12);
+	outtextxy(225,250, "Победил игрок крестиков ");
+	outtextxy(225,270, "Выберите :  ");
+	outtextxy(225,290, "1-вернуться в меню");
 	outtextxy(225,310, "2- выйти ");
-	b_input = getch();
-	switch(b_input)
+	c_input = getch();
+	switch(c_input)
 	{
 		case 49: cleardevice(); return menu();
 		case 50: closegraph();
