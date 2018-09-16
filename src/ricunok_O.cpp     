@@ -13,16 +13,16 @@
 
 using namespace std;
 
-void field()
+int draw_o(int x, int y)
 { 
-	setcolor(2);
-	line(0, 0, 659, 0); 
-	line(0, 220, 659, 220);
-	line(0, 440, 659, 440);
-	line(0, 659, 659, 659);
-      
-	line(0, 0, 0, 659); 
-	line(220, 0, 220, 659);
-	line(440, 0, 440, 659);
-	line(659, 0, 659, 659);
+	setcolor(3);
+	if (getpixel(x-40, y-22)==0)
+	{
+		circle(x-110, y-110, 90);
+		circle(x-110, y-110, 80);
+		moveto(x-110,y-110);
+                lineto(x-113,y-113);
+	}
+	else return 0;
+	return 0;   
 }

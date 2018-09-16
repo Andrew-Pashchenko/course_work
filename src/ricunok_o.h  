@@ -1,0 +1,6 @@
+#ifndef RICYNOK_O_H
+#define RICYNOK_O_H
+
+int draw_o(int x, int y);
+
+#endif

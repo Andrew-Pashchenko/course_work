@@ -9,6 +9,7 @@
 #include "dvizheniya.h"
 #include "ricynok_polya.h"
 #include "ricynok_x.h"
+#include "ricynok_o.h"
 
 using namespace std;
 
