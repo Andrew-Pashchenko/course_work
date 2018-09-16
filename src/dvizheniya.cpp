@@ -50,6 +50,8 @@ int game()
 		a7=getpixel(108,108);
 		a8=getpixel(328,108);
 		a9=getpixel(548,108);
+		
+		if(a1+a2+a3==9)win0();
 	}
 	return 0; 
 }
