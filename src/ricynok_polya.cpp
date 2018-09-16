@@ -11,10 +11,16 @@
 
 using namespace std;
 
-int main()
-{   
-	initwindow(660,660);
-	setbkcolor(0);
-	menu();
-	return 0;
+void field()
+{ 
+	setcolor(2);
+	line(0, 0, 659, 0); 
+	line(0, 220, 659, 220);
+	line(0, 440, 659, 440);
+	line(0, 659, 659, 659);
+      
+	line(0, 0, 0, 659); 
+	line(220, 0, 220, 659);
+	line(440, 0, 440, 659);
+	line(659, 0, 659, 659);
 }

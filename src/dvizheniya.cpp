@@ -7,6 +7,7 @@
 #include <string.h>
 #include "menu.h"
 #include "dvizheniya.h"
+#include "ricynok_polya.h"
 
 using namespace std;
 
