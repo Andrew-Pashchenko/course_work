@@ -56,6 +56,14 @@ int game()
 		if(a7+a8+a9==9)win0();
 		if(a1+a4+a7==9)win0();
 		if(a2+a5+a8==9)win0();
+		if(a3+a6+a9==9)win0();
+		if(a1+a5+a9==9)win0();
+		if(a3+a5+a7==9)win0();
+		if(a1+a2+a3==36)winX();
+		if(a4+a5+a6==36)winX();
+		if(a7+a8+a9==36)winX();
+		if(a1+a4+a7==36)winX();
+		if(a2+a5+a8==36)winX();
 	}
 	return 0; 
 }
