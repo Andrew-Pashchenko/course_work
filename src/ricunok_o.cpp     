@@ -10,6 +10,20 @@
 #include "ricynok_polya.h"
 #include "ricynok_x.h"
 #include "ricynok_o.h"
+#include "win0.h"
 
 using namespace std;
 
+int draw_o(int x, int y)
+{ 
+	setcolor(3);
+	if (getpixel(x-40, y-22)==0)
+	{
+		circle(x-110, y-110, 90);
+                circle(x-110, y-110, 80);
+		moveto(x-110,y-110);
+                lineto(x-113,y-113);
+	}
+	else return 0;
+	return 0;   
+}

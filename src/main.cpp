@@ -10,6 +10,7 @@
 #include "ricynok_polya.h"
 #include "ricynok_x.h"
 #include "ricynok_o.h"
+#include "win0.h"
 
 using namespace std;
 
