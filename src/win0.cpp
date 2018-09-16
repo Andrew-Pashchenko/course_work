@@ -19,10 +19,10 @@ int win0()
 	int b_input;
 	cleardevice();
 	setcolor(3);
-	outtextxy(225,250, "ÏÎÁÅÄÈË ÈÃÐÎÊ ÍÎËÈÊÎÂ ");
-	outtextxy(225,270, "âûáåðèòå : ");
-	outtextxy(225,290, "1- âåðíóòüñÿ â ìåíþ ");
-	outtextxy(225,310, "2- âûéòè ");
+	outtextxy(225,250, "Победил игрокноликов ");
+	outtextxy(225,270, "Выберите : ");
+	outtextxy(225,290, "1- вернуться в меню  ");
+	outtextxy(225,310, "2- выйти ");
 	b_input = getch();
 	switch(b_input)
 	{

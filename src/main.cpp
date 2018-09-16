@@ -16,6 +16,7 @@ using namespace std;
 
 int main()
 {   
+	setlocale(LC_ALL, "rus");
 	initwindow(660,660);
 	setbkcolor(0);
 	menu();
